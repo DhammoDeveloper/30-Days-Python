@@ -89,5 +89,22 @@ print(edades)
 
 ''' Ejercicios: Día 5 '''
 
+empresas = 'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'
+print(empresas)
+primera_empresa = empresas[0]
+segunda_empresa = empresas[1]
+ultima_empresa = empresas[6]
+print(primera_empresa, segunda_empresa, ultima_empresa)
 
+print(empresas)
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+full_stack = front_end + back_end
+print(full_stack)
+
+# Ordenar lista por edades
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+print(sorted(ages))
 
